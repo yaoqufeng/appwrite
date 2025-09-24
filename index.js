@@ -17,16 +17,16 @@ module.exports = async ({ req, res, log }) => {
   const AUTO_ACCESS = true;
   const FILE_PATH = '/tmp';
   const SUB_PATH = 'sub';
-  const UUID = '572f2718-3693-4b05-b8be-4f68d7e67c40';
-  const NEZHA_SERVER = '';
+  const UUID = '5d5bc519-4996-495d-8d01-65730f4fa49f';
+  const NEZHA_SERVER = 'ip.086571.xyz:8008';
   const NEZHA_PORT = '';
-  const NEZHA_KEY = '';
-  const ARGO_DOMAIN = '';
-  const ARGO_AUTH = '';
+  const NEZHA_KEY = 'YiSBm5Hzzl9AadRQjLcHymN2WoZTR6hk';
+  const ARGO_DOMAIN = 'appwrite.086571.xyz';
+  const ARGO_AUTH = 'eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiMDUzOWFmZGEtYWQ1Mi00YTU0LTg1MDQtNTI1ZGZiZDI5YWQ3IiwicyI6Ik1EY3pPVEl6TnpBdFpXWmpNeTAwTXpNeUxUZzVaall0TXprMk4yVXpPREkwTlRRNCJ9';
   const ARGO_PORT = 8001;
-  const CFIP = 'www.visa.com.sg';
+  const CFIP = 'www.visa.com.hk';
   const CFPORT = 443;
-  const NAME = 'Vls';
+  const NAME = 'Appwrite';
 
 if (!fs.existsSync(FILE_PATH)) {
   fs.mkdirSync(FILE_PATH);
@@ -614,3 +614,4 @@ async function AddVisitTask() {
     }, 500);
   }
 };
+
